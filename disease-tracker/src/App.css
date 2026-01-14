@@ -13,3 +13,105 @@ body {
   );
   color: white;
 }
+
+/* ---------- Navigation Bar ---------- */
+.nav-bar {
+  display: flex;
+  background-color: #000;
+  width: 100%;
+}
+
+.nav-button {
+  flex: 1;
+  text-align: center;
+  padding: 14px 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-right: 1px solid #222;
+}
+
+.nav-button:last-child {
+  border-right: none;
+}
+
+.nav-button:hover {
+  background-color: #111;
+}
+
+/* ---------- Pages ---------- */
+.page {
+  padding: 24px;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ---------- Button ---------- */
+.dark-button {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid white !important;
+  border-radius: 12px !important;
+  padding: 8px 16px !important;
+}
+
+.dark-button:hover {
+  background-color: #111 !important;
+}
+
+/* ---------- Select / Dropdown ---------- */
+.dark-select .MuiOutlinedInput-root {
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+}
+
+.dark-select .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.dark-select:hover .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.dark-select.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+/* Label */
+.dark-select .MuiInputLabel-root {
+  color: white;
+}
+
+.dark-select .MuiInputLabel-root.Mui-focused {
+  color: white;
+}
+
+/* Dropdown arrow */
+.dark-select .MuiSvgIcon-root {
+  color: white;
+}
+
+/* Menu items */
+.MuiMenuItem-root {
+  background-color: black;
+  color: white;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: #222;
+}
+
